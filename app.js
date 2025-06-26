@@ -8,8 +8,8 @@ app.get("/", (req, res) => {
 })
 
 app.get("/api", (req, res) => {
-    console.log("This is api route.");
-    res.send("This is api route.")
+    console.log("This is api route v3.");
+    res.send("This is api route v3.")
 })
 
 app.listen(PORT, () => {
