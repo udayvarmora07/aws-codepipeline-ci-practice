@@ -7,6 +7,11 @@ app.get("/", (req, res) => {
     res.send("Hello from uday varmora v2!")
 })
 
+app.get("/api", (req, res) => {
+    console.log("This is api route.");
+    res.send("This is api route.")
+})
+
 app.listen(PORT, () => {
     console.log(`server started on http://localhost:${PORT}`);
 })
