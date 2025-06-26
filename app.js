@@ -3,8 +3,8 @@ const app = express();
 const PORT = process.env.port | 8000;
 
 app.get("/", (req, res) => {
-    console.log("Hello from uday!");
-    res.send("Hello from uday!")
+    console.log("Hello from uday varmora v2!");
+    res.send("Hello from uday varmora v2!")
 })
 
 app.listen(PORT, () => {
